@@ -2,6 +2,8 @@
 
 Simple app to calcuate and visualize cost basis of your bitcoin holdings. Built using [Streamlit](https://streamlit.io/)
 
+Deployed at: https://sambradbury-btcbasis-app-23vy3t.streamlit.app/
+
 ## Instructions for running locally
 
 ### Requirements:
