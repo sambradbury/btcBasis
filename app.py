@@ -86,7 +86,7 @@ def main():
     st.markdown('##### Calculate and visualize your bitcoin cost basis in seconds.')
 
     txn_data = st.file_uploader(
-        label='', 
+        label='___', 
         type=['csv','xlsx'], 
         accept_multiple_files=False,
         key='txn_data',
