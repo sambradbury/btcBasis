@@ -163,10 +163,11 @@ def main():
 
     with col2:
         st.markdown('If you like this app please consider sending me some sats.')
-        st.markdown('BTC Address:')
-        st.code('bc1qegu3w08pwh9yk9fa0luhzelcvr57jdwvezuwl2')
-        st.markdown('LNUrl coming soon')
-
+        with st.expander(label='Donate'):
+            st.markdown('BTC Address:')
+            st.code('bc1q433z7nhkp58a63l28za0um04lrmu6e8l7lj8e0')
+            st.markdown('')
+            st.image(image=cwd + '/data/lnurl_donation_link.png', caption='Scan with LNURL enabled Lightning Wallet')
 
 if __name__ == '__main__':
     main()
