@@ -16,7 +16,7 @@ def sort_by_date(df):
     sorted = df.sort_values(by='timestamp')
     return sorted
 
-# @st.cache_data
+@st.cache_data
 def make_df(file):
     file_ext = os.path.splitext(file.name)[1]
     if file_ext == '.csv':
@@ -26,7 +26,7 @@ def make_df(file):
     sorted = sort_by_date(df)
     return sorted
 
-# @st.cache_data
+@st.cache_data
 def calculate_basis(df, method):
     trades = df.values.tolist()
     trade_queue = deque()
