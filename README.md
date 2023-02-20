@@ -7,7 +7,7 @@ Deployed at: https://sambradbury-btcbasis-app-23vy3t.streamlit.app/
 ## Instructions for running locally
 
 ### Requirements:
-- [python 3.9](https://www.python.org/downloads/) or newer (3.8 probably works)
+- [python 3.7](https://www.python.org/downloads/)
 - [pipenv](https://pypi.org/project/pipenv/)
 
 Clone this repo on your local machine: 
