@@ -12,7 +12,6 @@ def sort_by_date(df):
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     df['txn_amount_btc'] = pd.to_numeric(df['txn_amount_btc'])
     df['exchange_rate_usd'] = pd.to_numeric(df['exchange_rate_usd'].replace('[\$,]', '', regex=True))
-    # df['exchange_rate_usd'] = pd.to_numeric(df['exchange_rate_usd'])
     sorted = df.sort_values(by='timestamp')
     return sorted
 
